@@ -1,0 +1,5 @@
+.venv
+.git
+__pycache__/
+temp_ela_frames/
+val_data/
