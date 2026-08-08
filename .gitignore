@@ -1,5 +1,5 @@
 .venv
 .git
 __pycache__/
-
+results/
 val_data/
