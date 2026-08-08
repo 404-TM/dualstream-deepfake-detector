@@ -52,3 +52,18 @@ The model was stress-tested against an isolated Single-Stream (EfficientNet-B0) 
 ```bash
 git clone https://github.com/404-TM/dualstream-deepfake-detector
 cd dualstream-deepfake-detector
+```
+# Create a virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+# Install dependencies
+```bash
+pip install -r requirements.txt
+```
+# Start the FastAPI server
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+```
